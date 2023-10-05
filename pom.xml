@@ -15,7 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  <properties>
+    <maven.complier.source>11.0.16.1</maven.complier.source>
+     <maven.complier.target>11.0.16.1</maven.complier.target>
+  </properties>
+      <build>
     <finalName>WebApp</finalName>
   </build>
 </project>
